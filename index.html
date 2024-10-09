@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lec-1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 z-3"
+    >
+      <div class="container">
+        <a class="navbar-brand text-success" href="#">Mentor</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Dropdown</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#courses">Courses</a></li>
+                <li><a class="dropdown-item" href="#trainers">Trainers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- home -->
+      <section id="home" class="position-relative">
+        <img
+          class="d-bloc"
+          style="height: 90vh; width: 100%"
+          src="./images/hero-bg.jpg"
+          alt="hero-bg.jpg"
+        />
+        <div class="position-absolute top-50 ms-5">
+          <h1 class="text-white">
+            Learning Today, <br />
+            Leading Tomorrow
+          </h1>
+          <p class="fs-4 text-white-50">
+            We are team of talented designers making websites with Bootstrap
+          </p>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section id="about" class="container py-3">
+        <h2
+          style="width: 30vh"
+          class="pt-5 mx-auto text-center border-bottom border-2 pb-3"
+          style="border-color: #ff5733"
+        >
+          About Us
+        </h2>
+        <div class="row mt-5">
+          <article class="col-12 col-md-6">
+            <h3>Our Values</h3>
+            <p>
+              Innovation: We constantly strive to offer new and innovative
+              content that aligns with the latest trends in education.
+            </p>
+            <p>
+              Quality: We ensure that every course meets the highest standards
+              of quality through continuous review and regular assessment.
+            </p>
+            <p>
+              Community: We believe in the power of community to enhance the
+              learning experience. We encourage communication and collaboration
+              among learners.
+            </p>
+            <p>
+              Learn Anytime: Our courses are available 24/7, giving you the
+              freedom to learn at your own pace.
+            </p>
+          </article>
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="./images/about-2.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Courses -->
+      <section id="courses" class="container my-3">
+        <h2
+          style="width: 30vh"
+          class="pt-5 mx-auto text-center border-bottom border-2 pb-3"
+          style="border-color: #ff5733"
+        >
+          Courses
+        </h2>
+        <div class="row mt-3">
+          <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="./images/course-1.jpg"
+                class="card-img-top"
+                alt="course-1.jpg"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title bg-success text-white p-2 rounded-3"
+                  style="width: fit-content"
+                >
+                  Web Development
+                </h5>
+                <p class="card-text">
+                  The web, or World Wide Web, is a vast network of
+                  interconnected information accessible through the internet. It
+                  enables users to browse websites, interact with online
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="./images/course-2.jpg"
+                class="card-img-top"
+                alt="course-1.jpg"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title bg-success text-white p-2 rounded-3"
+                  style="width: fit-content"
+                >
+                  Data Science
+                </h5>
+                <p class="card-text">
+                  The web, or World Wide Web, is a vast network of
+                  interconnected information accessible through the internet. It
+                  enables users to browse websites, interact with online
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="./images/course-3.jpg"
+                class="card-img-top"
+                alt="course-1.jpg"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title bg-success text-white p-2 rounded-3"
+                  style="width: fit-content"
+                >
+                  Mobile App Development
+                </h5>
+                <p class="card-text">
+                  The web, or World Wide Web, is a vast network of
+                  interconnected information accessible through the internet. It
+                  enables users to browse websites, interact with online
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="./images/course-2.jpg"
+                class="card-img-top"
+                alt="course-1.jpg"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title bg-success text-white p-2 rounded-3"
+                  style="width: fit-content"
+                >
+                  Game Development
+                </h5>
+                <p class="card-text">
+                  The web, or World Wide Web, is a vast network of
+                  interconnected information accessible through the internet. It
+                  enables users to browse websites, interact with online
+                  content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- trainers -->
+      <section id="trainers" class="container my-3">
+        <h2
+          style="width: 30vh"
+          class="pt-5 mx-auto text-center border-bottom border-2 pb-3"
+          style="border-color: #ff5733"
+        >
+          Trainers
+        </h2>
+        <div class="row text-center mt-5">
+          <div class="col-12 col-md-4">
+            <img
+              src="./images/trainers/trainer-1.jpg"
+              alt="trainer-1-2.jpg"
+              class="rounded-circle"
+              width="150"
+              height="150"
+            />
+            <h3>ahmed</h3>
+            <p>
+              Our trainees are diverse individuals, from beginners to
+              experienced professionals, eager to enhance their programming
+              skills for success in the tech industry.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="./images/trainers/trainer-2.jpg"
+              alt="trainer-1-2.jpg"
+              class="rounded-circle"
+              width="150"
+              height="150"
+            />
+            <h3>ahmed</h3>
+            <p>
+              Our trainees are diverse individuals, from beginners to
+              experienced professionals, eager to enhance their programming
+              skills for success in the tech industry.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="./images/trainers/trainer-3.jpg"
+              alt="trainer-1-2.jpg"
+              class="rounded-circle"
+              width="150"
+              height="150"
+            />
+            <h3>ahmed</h3>
+            <p>
+              Our trainees are diverse individuals, from beginners to
+              experienced professionals, eager to enhance their programming
+              skills for success in the tech industry.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="./images/trainers/trainer-4.jpg"
+              alt="trainer-1-2.jpg"
+              class="rounded-circle"
+              width="150"
+              height="150"
+            />
+            <h3>ahmed</h3>
+            <p>
+              Our trainees are diverse individuals, from beginners to
+              experienced professionals, eager to enhance their programming
+              skills for success in the tech industry.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="./images/trainers/trainer-5.jpg"
+              alt="trainer-1-2.jpg"
+              class="rounded-circle"
+              width="150"
+              height="150"
+            />
+            <h3>ahmed</h3>
+            <p>
+              Our trainees are diverse individuals, from beginners to
+              experienced professionals, eager to enhance their programming
+              skills for success in the tech industry.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="./images/trainers/trainer-6.jpg"
+              alt="trainer-1-2.jpg"
+              class="rounded-circle"
+              width="150"
+              height="150"
+            />
+            <h3>ahmed</h3>
+            <p>
+              Our trainees are diverse individuals, from beginners to
+              experienced professionals, eager to enhance their programming
+              skills for success in the tech industry.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+       <section id="contact" class="container">
+        <h2
+          style="width: 30vh"
+          class="pt-5 mx-auto text-center border-bottom border-2 pb-3"
+        >
+          Contact
+        </h2>
+        <form class="row g-3 needs-validation mt-3" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+       </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-light p-2 text-center">
+      <p class="pt">© Copyright Mentor All Rights Reserved Designed by Name</p>
+    </footer>
+
+    <!-- js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
